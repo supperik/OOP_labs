@@ -1,0 +1,15 @@
+# ninja log v5
+0	902	7309342552611730	CMakeFiles/lab1.dir/compare_files/compare_files.cpp.obj	deeb3b978beaf650
+921	1122	7309342554772218	lab1.exe	48b2514f0e1b10d7
+5	849	7309347085249306	CMakeFiles/lab1.dir/compare_files/compare_files.cpp.obj	deeb3b978beaf650
+849	1010	7309347086825840	lab1.exe	48b2514f0e1b10d7
+5	904	7309377705232410	CMakeFiles/lab1.dir/compare_files/compare_files.cpp.obj	deeb3b978beaf650
+904	1059	7309377706722644	lab1.exe	48b2514f0e1b10d7
+4	868	7309378306446876	CMakeFiles/lab1.dir/compare_files/compare_files.cpp.obj	deeb3b978beaf650
+869	1008	7309378307813590	lab1.exe	48b2514f0e1b10d7
+4	862	7309379397146140	CMakeFiles/lab1.dir/compare_files/compare_files.cpp.obj	deeb3b978beaf650
+863	1000	7309379398496512	lab1.exe	48b2514f0e1b10d7
+5	857	7309381063861610	CMakeFiles/lab1.dir/compare_files/compare_files.cpp.obj	deeb3b978beaf650
+858	999	7309381065242015	lab1.exe	48b2514f0e1b10d7
+5	880	7309381632664729	CMakeFiles/lab1.dir/compare_files/compare_files.cpp.obj	deeb3b978beaf650
+880	1018	7309381634005033	lab1.exe	48b2514f0e1b10d7
