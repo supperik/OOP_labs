@@ -1,0 +1,3 @@
+C:/Users/supperik/Desktop/главный папочка/OOP labs/lab1/compare_files/cmake-build-debug/CMakeFiles/compare_files.dir
+C:/Users/supperik/Desktop/главный папочка/OOP labs/lab1/compare_files/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/supperik/Desktop/главный папочка/OOP labs/lab1/compare_files/cmake-build-debug/CMakeFiles/rebuild_cache.dir
