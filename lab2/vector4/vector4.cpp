@@ -1,23 +1,21 @@
 //Задание 1. Основы работы с контейнером vector. 20 баллов
-//
+
 //Разработайте программу, выполняющую считывание массива чисел с плавающей запятой, разделяемых пробелами,
 //из стандартного потока ввода в vector, обрабатывающую его согласно заданию Вашего варианта и выводящую в стандартный
 //поток полученный массив (разделенный пробелами). Значения должны выводиться с точностью 3 знака после запятой.
 //В программе должны быть выделены функции, выполняющие считывание массива,
 //его обработку (функция обработки вектора значений должна изменять содержимое переданного массива) и вывод результата.
-//
-//4)Умножить каждый отрицательный элемент массива на произведение
-// максимального и минимального элементов исходного массива
+
+//4)Умножить каждый отрицательный элемент массива на произведение максимального и минимального элементов исходного массива
 
 #include <vector>
 #include <iostream>
 #include <algorithm>
 #include <iomanip>
 #include <limits>
-#include <float.h>
+#include <fstream>
 
 const std::string inputValueError = "Value Error: Readed invalid string: ";
-const std::string inputValueLimitsError = "Value Error: Enter smaller number than last. Max length of number: ";
 
 std::vector<float> recordData(std::istream& input)
 {
@@ -68,7 +66,8 @@ void PrintSortedVector(std::vector<float> vector, std::ostream& output)
 
 int main()
 {
-    std::vector<float> nums = recordData(std::cin);
+    std::ifstream inputFile("input.txt");
+    std::vector<float> nums = recordData(inputFile);
     divideVectorElemsOnHalfOfMaxElemInVector(nums);
     PrintSortedVector(nums, std::cout);
 
